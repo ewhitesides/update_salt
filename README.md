@@ -1,6 +1,6 @@
 # overview
 
-script to update salt on linux and windows minions
+script to run on salt master that updates salt minion on linux and windows
 
 # example calls
 
@@ -15,4 +15,8 @@ sudo ./update_salt.sh '*dev*'
 sudo ./update_salt.sh 'G@osmajorrelease:8 and G@os:CentOS'
 nohup sudo ./update_salt.sh 'N@NodeGroup1 and G@osmajorrelease:[7-8]' &
 ```
+
+# TO DO
+
+specify the same version of the salt-master, instead of 'latest'
 
